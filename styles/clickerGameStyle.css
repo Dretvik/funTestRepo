@@ -1,0 +1,69 @@
+#clickerGamePageContainer {
+    height: 100%;
+    width: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    user-select: none;
+}
+#clickerGameContainer{
+    margin-top: 10px;
+    height: 95%;
+    width: 80%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#clickerDiv {
+    height: 10vw;
+    width: 10vw;
+    border-radius: 50%;
+    background-image: radial-gradient(circle at center, red,yellow, green);
+    border: 2px solid black;
+    margin: 4%;
+    text-align: center;
+}
+#circleText {
+    margin-top: 20%;
+}
+#pointsDiv {
+    width: 30%;
+    text-align: center;
+    font-size: 200%;
+    margin-top: 2%;
+}
+.levelIndicator{
+    font-size: 120%;
+}
+#circleText {
+    display:flex;
+    flex-direction: column;
+    color:black;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: large;
+}
+.clickerGameButtons {
+    width: 30vw;
+    max-width: 300px;
+    font-size: 14px;
+    padding: 5px;
+    margin: 1px;
+    border: none;
+    box-shadow: 2px 2px 2px black;
+    cursor: pointer;
+    background-color: indigo;
+    color: white;
+    border-radius: 10px;
+}
+.clickerGameButtons:hover {
+    background-color: crimson;
+}
+#ClickerGameButtonsDiv {
+    display: grid;
+    grid-template-columns: repeat(2, 30vw);
+    gap: 5%;
+}

@@ -1,0 +1,36 @@
+#mainPageContentView {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+    /* Background Image */
+    background-image: url(../img/backgroundImgs/catsAndAOwl.jpg);
+    background-size: 88vw 80vh;
+    background-repeat: no-repeat;
+}
+#appsButtonsDiv, #gamesButtonsDiv {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    gap: 10px;
+}
+.appLinkButtons {
+    border: none;
+    padding: 10px;
+    background-color: indigo;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+    color: white;
+    cursor: pointer;
+}
+.appLinkButtons:hover {
+    background-color: crimson;
+}
+.mainContentH3s {
+    color: black;
+    font-size: 200%;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,15 @@
+#loginInputDiv {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 150px);
+}
+.loginPageSpans {
+    text-align: end;
+}
+#loginButtonsDiv {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
